@@ -1,3 +1,6 @@
+import './reset.css';
+import './App.css';
+import './githubmd.css';
 import React from 'react';
 import Issues from './Issues';
 import Details from './Details';
@@ -19,7 +22,7 @@ export default function App() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" activeClassName="active" exact>
+            <NavLink to="/" activeclassname="active" exact="true">
               Home
             </NavLink>
           </li>
